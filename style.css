@@ -1,13 +1,13 @@
+html {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14px;
+    background: rgb(194, 232, 247);
+}
 
-   * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   }
-   
-   /* body {
-  
-   } */
-   
-  
-   
+body {
+    padding: 1rem;
+    background: #1c262f;
+    color: rgb(230, 225,225);
+    width: 90%;
+    margin: 0 auto;
+}
