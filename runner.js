@@ -1,6 +1,7 @@
-
+const setGoal = 25;
 let entries = [];
 const entriesWrapper = document.getElementById('entries');
+document.querySelector('#target').innerText = setGoal;
 
 function reducer(total, currentValue) {
     return total + currentValue
@@ -17,6 +18,11 @@ function Averagecalc(){
     document.getElementById('average').innerText = average
 }
 
+function weeklyTotal(){
+    const high = Math.max(...entries)
+    document.getElementById('high').innerText = high;
+}
+ 
 const form = document.querySelector('form')
 form.addEventListener('submit', handleSubmit);
 
@@ -30,6 +36,7 @@ function handleSubmit(e) {
         addNewEntry(entry)
         totalCalc(entries)
         Averagecalc()
+        weeklyTotal()
 }
 
 
