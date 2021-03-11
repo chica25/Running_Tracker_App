@@ -2,6 +2,7 @@ const form = document.querySelector('form')
 form.addEventListener('submit', handleSubmit);
 
 let entries = [];
+const entriesWrapper = document.getElementById('entries');
 
 function handleSubmit(e) {
     e.preventDefault();
@@ -18,4 +19,7 @@ function addNewEntry(newEntry) {
     // console.log(newEntry)
    const createList = document.createElement('li')
    const value = document.createTextNode(newEntry)
+   createList.appendChild(value);
+   
+   entriesWrapper.appendChild(createList);
 }
