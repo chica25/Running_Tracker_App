@@ -38,7 +38,7 @@ input[type="number"] {
     text-align: center;
 }
 
-button{
+button {
     font-family: inherit;
     font-size: 1.4rem;
     font-weight: bolder;
@@ -48,9 +48,38 @@ button{
     background: skyblue;
     margin: 0.5rem 0 1rem 0;
 }
-ul{
+
+ul {
     padding: 0;
     display: flex;
     list-style: none;
     justify-content: space-between;
+}
+
+li {
+    border: 1px solid;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+}
+
+.entries-wrapper {
+    padding: 1rem 0;
+    font-size: 1.6rem;
+}
+
+
+.entries-wrapper h3 {
+   margin: 0;
+   text-align: center;
+   font-weight: lighter;
+}
+
+.data {
+    font-size: 1.4rem;
+    background: 141c22;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    padding: 0 1rem;
 }
