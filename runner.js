@@ -26,6 +26,15 @@ function weeklyTotal(){
 const form = document.querySelector('form')
 form.addEventListener('submit', handleSubmit);
 
+function totalCal() {
+    const allValues = entries.reduce(reducer).toFixed(1)
+    const completed = allValues / (setGoal / 100)
+    // console.log(completed)
+    const progressCircle = document.querySelector('#progress-circle')
+    progressCircle.style.background = `conic-gradient(#70db70 ${completed}%, #2d3740 ${completed}% 100%)`
+    if(completed > 100) completed == 100;
+}
+
 function handleSubmit(e) {
     e.preventDefault();
     const entry = Number(document.getElementById('entry').value)
@@ -37,6 +46,7 @@ function handleSubmit(e) {
         totalCalc(entries)
         Averagecalc()
         weeklyTotal()
+        totalCal()
 }
 
 
