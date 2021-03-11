@@ -31,7 +31,7 @@ function totalCal() {
     const completed = allValues / (setGoal / 100)
     // console.log(completed)
     const progressCircle = document.querySelector('#progress-circle')
-    progressCircle.style.background = `conic-gradient(#70db70 ${completed}%, #2d3740 ${completed}% 100%)`
+    progressCircle.style.background = `conic-gradient(#F99957 ${completed}%, #444141 ${completed}% 100%)`
     if(completed > 100) completed == 100;
 }
 

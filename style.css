@@ -6,7 +6,7 @@ html {
 
 body {
     padding: 1rem;
-    background: #329b99;
+    background: #32919b;
     color: rgb(230, 225,225);
     width: 90%;
     margin: 0 auto;
@@ -14,21 +14,16 @@ body {
 
 h1 {
     text-align: center;
+    color: #F99957;
+    font-size: 40px;
 }
 
 .logo-1 {
     width: 30%;
     height: 40%;
     text-align: center;
-    max-width: 50%;
+    max-width: 50
 }
-
-/* .logo-2 {
-    width: 20%;
-    height: 20%;
-    text-align: right;
-} */
-
 
 form {
     text-align: center;
@@ -56,7 +51,7 @@ button {
     width: 42px;
     height: 42px;
     border-radius: 50%;
-    background: rgb(173, 135, 235);
+    background: rgb(184, 186, 177);
     margin: 0.5rem 0 1rem 0;
 }
 
@@ -68,9 +63,7 @@ ul {
 }
 
 li {
-    /* border: 1px solid; */
     padding: 1rem 1.5rem;
-    /* border-radius: 10px; */
 }
 
 .entries-wrapper {
@@ -123,5 +116,5 @@ li {
     width: 220px;
     height: 220px;
     border-radius: 50%;
-    background: #329b99;
+    background: #32919b;
 }
