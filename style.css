@@ -6,18 +6,28 @@ html {
 
 body {
     padding: 1rem;
-    background: #1c262f;
+    background: #329b99;
     color: rgb(230, 225,225);
     width: 90%;
     margin: 0 auto;
 }
 
+h1 {
+    text-align: center;
+}
 
-.logo{
+.logo-1 {
     width: 30%;
     height: 40%;
     text-align: center;
 }
+
+.logo-2 {
+    width: 20%;
+    height: 20%;
+    text-align: right;
+}
+
 
 form {
     text-align: center;
@@ -33,7 +43,7 @@ input[type="number"] {
     width: 50%;
     margin: 1rem;
     padding: 0.8rem 0;
-    border: none;
+    border-radius: 15px;
     font-size: 1.2rem;
     text-align: center;
 }
@@ -45,7 +55,7 @@ button {
     width: 42px;
     height: 42px;
     border-radius: 50%;
-    background: skyblue;
+    background: rgb(173, 135, 235);
     margin: 0.5rem 0 1rem 0;
 }
 
@@ -57,9 +67,9 @@ ul {
 }
 
 li {
-    border: 1px solid;
+    /* border: 1px solid; */
     padding: 1rem 1.5rem;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .entries-wrapper {
