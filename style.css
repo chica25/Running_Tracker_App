@@ -1,7 +1,7 @@
 html {
     font-family: 'Bebas Neue', cursive;
     font-size: 14px;
-    background: rgb(194, 232, 247);
+    background: white;
 }
 
 body {
@@ -42,6 +42,7 @@ input[type="number"] {
     border-radius: 15px;
     font-size: 1.2rem;
     text-align: center;
+    outline: none;
 }
 
 button {
@@ -53,6 +54,7 @@ button {
     border-radius: 50%;
     background: rgb(184, 186, 177);
     margin: 0.5rem 0 1rem 0;
+    outline: none;
 }
 
 ul {
